@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ultimate HTML Tag Showcase</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; }
+        header, nav, section, article, aside, footer { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+        code { background: #eee; padding: 2px 4px; }
+    </style>
+</head>
+<body>
+<!-- start of webpage -->
+    <header>
+        <h1>Heading</h1>
+        <nav>
+            <ul>
+                <li><a href="#text">Text Tags</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#form">Forms</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="text">
+            <h2>Text Formatting (h2)</h2>
+            <p>This is a standard <strong>paragraph</strong> with <b>bold</b>, <i>italic</i>, and <u>underlined</u> text.</p>
+            <p>We can use <mark>highlighting</mark>, <small>small text</small>, <del>deleted text</del>, and <ins>inserted text</ins>.</p>
+            <p>Chemical formulas: H<sub>2</sub>O. Math: E=mc<sup>2</sup>.</p>
+            
+            <blockquote>
+                "This is a blockquote for long citations."
+                <cite>— HTML Spec</cite>
+            </blockquote>
+
+            <pre>
+                <code>
+                    // This is a code block
+                    function helloWorld() {
+                        console.log("Hello!");
+                    }
+                </code>
+            </pre>
+        </section>
+
+        <section>
+            <h3>Lists and Tables (h3)</h3>
+            <ul>
+                <li>Unordered List Item</li>
+                <li>Another Item</li>
+            </ul>
+            <ol>
+                <li>Ordered List Item 1</li>
+                <li>Ordered List Item 2</li>
+            </ol>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Header A</th>
+                        <th>Header B</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="media">
+            <h3>Media Elements</h3>
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                <figcaption>Image Caption</figcaption>
+            </figure>
+            <br>
+            <details>
+                <summary>Click to expand more info (Details/Summary)</summary>
+                <p>Hidden content revealed!</p>
+            </details>
+        </section>
+
+        <section id="form">
+            <h3>Interactive Form</h3>
+            <form action="#">
+                <fieldset>
+                    <legend>User Info</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter name">
+                    
+                    <br><br>
+                    
+                    <label>Favorite Color:</label>
+                    <input type="radio" name="color" value="red"> Red
+                    <input type="radio" name="color" value="blue"> Blue
+                    
+                    <br><br>
+                    
+                    <label for="browser">Choose a browser:</label>
+                    <input list="browsers" id="browser">
+                    <datalist id="browsers">
+                        <option value="Chrome">
+                        <option value="Firefox">
+                        <option value="Safari">
+                    </datalist>
+
+                    <br><br>
+                    
+                    <progress value="70" max="100"></progress>
+                    <br>
+                    <button type="submit">Submit Button</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <aside>
+        <h4>Sidebar (Aside)</h4>
+        <p>Extra info or ads go here.</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2026 HTML Tag Guide. Built with &hearts;</p>
+    </footer>
+
+</body>
+</html>
